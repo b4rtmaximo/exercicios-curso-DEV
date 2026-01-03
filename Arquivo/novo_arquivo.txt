@@ -1,0 +1,7 @@
+Escrevendo multiplas linhas
+em um arquivo de texto
+com Python
+
+com Python
+com Python
+com Python
