@@ -21,7 +21,7 @@ carro_1.acelerar()
 carro_1.acelerar()
 carro_1.acelerar()
 carro_1.frear()
-carro_1.buzinar()
+carro_1.buzinar(3)
 
 print(carro_1.marca, carro_1.modelo, carro_1.velocidade)
 
