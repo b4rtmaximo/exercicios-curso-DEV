@@ -1,3 +1,4 @@
+#É a classe base/pai. Todo animal tem um nome e pode expressar() um som genérico.
 class Animal():
     def __init__(self, nome):
         self.nome = nome
@@ -10,7 +11,7 @@ class Cachorro(Animal):
     def __init__(self, nome):
         super().__init__(nome)
 
-
+#Cachorro sobrescreve o método expressar() do pai, mas ainda usa o método original com super().expressar() e adiciona "au au au".
     def expressar(self):
         return f'{super().expressar()}... au au au'
 
