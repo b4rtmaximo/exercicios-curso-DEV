@@ -25,6 +25,7 @@ class Batmovel(Carro,Aviao,Barco):
     pass
 
 
+
 carro = Carro_Anfibio()
 print(carro.dirigir())
 print(carro.navegar())
