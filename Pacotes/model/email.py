@@ -1,6 +1,8 @@
+from utils.validador import Validador
+
 class Email:
-    def __init__(self, valor):
-        self.__valor = valor
+    def __init__(self, valor, atributo='E-mail'):
+        self.__valor = Validador(valor, atributo).nao_nulo().email().valor
 
     @property
     def valor(self):

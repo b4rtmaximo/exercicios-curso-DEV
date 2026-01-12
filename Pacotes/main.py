@@ -1,6 +1,4 @@
-from model.usuario import Usuario
+from model import Usuario
 
-usuario = Usuario('José Silva', 'jose@empresa.com.br')
+usuario = Usuario('Mario Antônio', 'joseempresa.com.br')
 print(usuario)
-print(usuario.email.dominio)
-print(usuario.email.usuario)
